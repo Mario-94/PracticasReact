@@ -13,8 +13,10 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': [
-      'warn',
-      { allowConstantExport: true },
+      // comente estas lineas porque no se que es lo que hacen bien
+
+      // 'warn',
+      // { allowConstantExport: false },
     ],
   },
 }
